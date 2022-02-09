@@ -1,0 +1,138 @@
+html{
+    font-size: 10px;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #F2F2F2;
+}
+
+.continer{
+    max-width: 1200;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+.dark_header{
+    max-width: 1200;
+    background-color: #fff;
+    box-shadow: 0.3rem 0.6rem 1.8rem -0.8rem rgba(34, 60, 80, 0.2);
+}
+.header_color{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.taxt_navbar_h1{
+    font-size: 1.5rem;
+}
+.img_dark{
+    
+}
+
+.color_html{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    font-size: 2rem;
+    line-height: 2.2rem;
+    font-weight: 600;
+    
+}
+
+/* input tuype */
+
+.input_chelench{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4rem;
+}
+.input_continer{
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    background: #FFFFFF;
+    box-shadow: 0rem 0.rem 0.9rem rgba(0, 0, 0, 0.0532439);
+    border-radius: 0.5rem;
+    padding: 1rem 4rem;
+}
+.imput_tupe{
+    border: none;
+    font-size: 2rem;
+}
+.tablo_text{
+    font-size: 1.5rem;
+}
+
+/* Manin */
+
+.card_main_bg{
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-column-gap: 1rem;
+    grid-row-gap: 2rem;
+    margin-bottom: 3rem;
+    
+}
+.cart_continer{
+    width: 26.4rem;
+    height: 33.6rem;
+    background-color: #fff;
+    border-radius: 5px;    
+}
+.text_center{
+    padding-left: 1rem;
+    font-size: 1rem;
+}
+
+
+/* responsiv code  */
+
+
+@media(max-width: 1100px){
+    .card_main_bg{
+        grid-template-columns: auto auto auto; 
+        grid-row-gap: 2rem;
+    }
+}
+@media(max-width: 900px){
+    .card_main_bg{
+        grid-template-columns: auto auto; 
+        grid-row-gap: 2rem;
+    }
+}
+@media(max-width: 550px){
+    .card_main_bg{
+        grid-template-columns: auto; 
+        gap: 20px 5px;
+        margin: auto;
+
+    }
+    .cart_continer{
+        margin-left: 8rem;
+    }
+    .input_chelench{
+        flex-direction: column;
+
+    }
+    .imput_tupe{
+        margin: 2rem 0rem;
+    }
+    .tablo_text{
+        margin: 2rem 0rem;
+    }
+}
+
+/* button */
+
+
+
+
+
+
+
+
+
