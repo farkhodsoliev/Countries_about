@@ -110,10 +110,7 @@ body{
         gap: 20px 5px;
         margin: auto;
 
-    }
-    .cart_continer{
-        margin-left: 8rem;
-    }
+    } 
     .input_chelench{
         flex-direction: column;
 
